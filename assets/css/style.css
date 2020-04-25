@@ -1,5 +1,84 @@
 /* Custom Stylesheet */
 
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('assets/images/background1.jpeg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.heading {
+    float: right;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.words {
+    color: rgb(56, 46, 46);
+}
+
+h1 {
+    color: rgb(56, 46, 46);
+}
+
+h2 {
+    color: rgb(0, 93, 143);
+    /* color: white; */
+    text-shadow: 1px 1px 1px #000;
+}
+
+h3 {
+    font-size: 52px;
+    color: rgb(249, 253, 253);
+    text-shadow: 1px 1px 1px #000;
+}
+
+h5 {
+    font-size: 30px;
+    /* color: rgb(59, 55, 55); */
+    color: rgb(0, 93, 143);
+    text-shadow: 1px 1px 1px rgb(75, 73, 73);
+}
+
+p {
+    /* color: black; */
+    text-shadow: 1px 1px 1px rgb(133, 131, 131);
+    font-size: 20px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .btn-row {
     text-align: center;
 }
