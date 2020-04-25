@@ -1,227 +1,86 @@
-/* Custom Stylesheet */
-
-
-/* * {
-    box-sizing: border-box;
-} */
+/* css Melanie Portfolio */
 
 body,
 html {
     height: 100%;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url('assets/images/background1.jpeg');
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-
-.heading {
-    float: right;
-    padding-left: 40px;
-    padding-top: 40px;
-}
-
-.words {
-    color: rgb(56, 46, 46);
-}
-
-h1 {
-    color: rgb(56, 46, 46);
-}
-
-h2 {
-    color: rgb(0, 93, 143);
-    /* color: white; */
-    text-shadow: 1px 1px 1px #000;
-}
-
-h3 {
-    font-size: 52px;
-    color: rgb(249, 253, 253);
-    text-shadow: 1px 1px 1px #000;
-}
-
-h5 {
-    font-size: 30px;
-    /* color: rgb(59, 55, 55); */
-    color: rgb(0, 93, 143);
-    text-shadow: 1px 1px 1px rgb(75, 73, 73);
-}
-
-p {
-    /* color: black; */
-    text-shadow: 1px 1px 1px rgb(133, 131, 131);
-    font-size: 20px;
-}
-
-
-/* Clearfix (clear floats) */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.btn-row {
-    text-align: center;
-}
-
-.bkg1 {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /* margin-bottom: 100px; */
-}
-
-.bkg2 {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /* margin-bottom: 100px; */
-}
-
-.bkg3 {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /* margin-bottom: 100px; */
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("assets/images/background1.jpeg");
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-
-
-/* #btn1 {
-    display: inline-block;
-    width: 100%;
-    float: left;
-    border: solid 1px blue;
-    text-align: center;
-}
-
-#btn2 {
-    display: inline-block;
-    width: 100%;
-    float: center;
-    border: solid 1px blue;
-    text-align: center;
-}
-
-#btn3 {
-    display: inline-block;
-    width: 100%;
-    float: right;
-    border: solid 1px blue;
-    text-align: center;
-} */
-
-
-/* .container button {
-    display: inline-block;
-}
-
-#btn1 {
-    float: left;
-}
-
-#btn3 {
-    float: right;
-} */
-
-
-/* Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-    color: #444;
-}
-
-p {
-    line-height: 2rem;
-}
-
-.sidenav-trigger {
-    color: #26a69a;
-}
-
-.parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-}
-
-.parallax-container .section {
-    width: 100%;
-}
-
-@media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
-}
-
-.icon-block {
-    padding: 0 15px;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-}
-
-
-/* footer.page-footer {
     margin: 0;
-} */
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*
+    fixed = parallax
+    scroll = normal
+    */
+}
+
+.pimg1 {
+    background-image: url("assets/images/image1.jpg");
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url("assets/images/image2.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("assets/images/image3.jpg");
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-ligh {
+    background-color: lightgray;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+        background-attachment: scroll;
+    }
+}
