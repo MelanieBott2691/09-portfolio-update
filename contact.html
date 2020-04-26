@@ -31,9 +31,9 @@
     <!-- button section and links -->
     <section class="section section-light">
         <div class="btn-row" id="sections">
-            <a href="#section1" class="btn btn-large" style="background-color: rgb(145, 88, 107)">About Me</a>
+            <a href="index.html" class="btn btn-large" style="background-color: rgb(145, 88, 107)">About Me</a>
             <a href="portfolio.html" class="btn btn-large" style="background-color: rgb(145, 88, 107)">Portfolio</a>
-            <a href="#section3" class="btn btn-large" style="background-color: rgb(145, 88, 107)">Contact</a>
+            <a href="contact.html" class="btn btn-large" style="background-color: rgb(145, 88, 107)">Contact</a>
         </div>
     </section>
 
@@ -56,7 +56,23 @@
                     <input type="text" class="contact-form-text" placeholder="Your Name"></input>
                     <input type="email" class="contact-form-text" placeholder="Your Email"></input>
                     <textarea class="contact-form-text" placeholder="Send a Message"></textarea>
-                    <input type="submit" class="contact-form-btn" value="Send">
+                    <!-- <input type="submit" class="contact-form-btn" value="Send"> -->
+
+                    <!-- Modal -->
+                    <div class="container">
+                        <!-- <h2>Modals</h2> -->
+                        <a href="#terms" class="btn modal-trigger">Submit</a>
+                        <div class="modal" id="terms">
+                            <div class="modal-content">
+                                <h4>Thank you for contacting me!</h4>
+                                <h6>I can't wait to read your message and respond.</h6>
+                                <h6>Have a great day!</h6>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="index.html" class="modal-close btn">Goodbye</a>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
     </section>
@@ -94,5 +110,16 @@ Melanie C. Bott
 </div>
 </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+    // document.addEventListener('DOMContentLoaded', function(){
+    // var elems = document.querySelectorAll('.modal');
+    // var instances = M.Modal.init(elems, options);
+    // });
+    $(document).ready(function() {
+        $('.modal').modal();
+    });
+</script>
 
 </html>

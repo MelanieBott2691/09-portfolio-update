@@ -20,3 +20,15 @@ p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.btn modal-trigger .modal-close btn {
+    float: right;
+    border: 40px;
+    background-color: rgb(168, 122, 164);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 80px;
+    height: 40px;
+}

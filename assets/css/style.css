@@ -175,9 +175,9 @@ textarea.contact-form-text {
 }
 
 .contact-form-btn {
-    float: right;
+    float: center;
     border: 40px;
-    background-color: rgb(168, 122, 164);
+    /* background-color: rgb(168, 122, 164); */
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
@@ -196,4 +196,25 @@ textarea.contact-form-text {
 .footer-copyright {
     background-color: #EE6E73;
     color: white;
+}
+
+.fab {
+    color: white;
+}
+
+.footer-copyright {
+    background-color: #302b2b !important;
+    color: white;
+    font-size: 12px;
+    height: 40px !important;
+    text-align: center !important;
+    padding-top: 10px;
+}
+
+p {
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
