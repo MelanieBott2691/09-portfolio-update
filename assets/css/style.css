@@ -27,18 +27,36 @@ html {
 }
 
 .pimg1 {
-    background-image: url("assets/images/image1.jpg");
+    /* background: url("assets/images/image1.jpg"); */
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image1.jpg");
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url("assets/images/image2.jpg");
+    /* background: url("assets/images/image2.jpg"); */
+    /* Photo by Felix Mittermeier from Pexels */
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image2.jpg");
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url("assets/images/image3.jpg");
+    /* background: url("assets/images/image3.jpg"); */
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/background1.jpeg");
     min-height: 400px;
+}
+
+#sections {
+    font-size: 200px !important;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+    /* color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    */
 }
 
 .section {
@@ -62,7 +80,7 @@ html {
     width: 100%;
     text-align: center;
     color: #000;
-    font-size: 27px;
+    font-size: 2vw;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
@@ -75,6 +93,12 @@ html {
 
 .ptext .border.trans {
     background-color: transparent;
+    color: black;
+}
+
+.border-logo {
+    opacity: 10;
+    background-image: url("assets/images/melanielogo.png");
 }
 
 @media(max-width:568px) {
@@ -83,4 +107,158 @@ html {
     .pimg3 {
         background-attachment: scroll;
     }
+}
+
+
+/* content css */
+
+.btn-row {
+    font-size: 40%;
+    border-radius: 4px;
+}
+
+h2 {
+    color: rgb(70, 67, 67);
+    text-shadow: 2px 2px 4px #0000;
+}
+
+#moveup {
+    align-items: center;
+    height: 40px;
+    background-color: #0000;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 8px;
+}
+
+
+/* CONTACT FORM CSS */
+
+h1 {
+    color: rgb(116, 137, 158);
+    text-align: center;
+}
+
+.contact-section {
+    background: url(assets/images/background1.jpeg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    color: rgb(116, 137, 158);
+}
+
+.contact-section {
+    vertical-align: auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background-color: rgb(116, 137, 158);
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+    /* resize: none; */
+    height: 120px;
+    border-radius: 4px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 40px;
+    /* background-color: #34495e; */
+    /* background-color: rgb(116, 137, 158); */
+    background-color: rgb(168, 122, 164);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 80px;
+    height: 40px;
+}
+
+.contact-form-btn:hover {
+    background-color: #256996;
+}
+
+
+/* Portfolio CSS */
+
+#background {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+
+/* footer  */
+
+.footer-copyright {
+    background-color: #EE6E73;
+    color: white;
 }
