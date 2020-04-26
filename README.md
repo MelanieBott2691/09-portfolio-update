@@ -1,13 +1,13 @@
 # 09-portfolio-update
 
-# Unit 9: Portfolio Update**
+# Unit 9: Portfolio Update
 
  https://melaniebott2691.github.io/09-portfolio-update/
 
 ![Portfolio](/assets/images/screenshot.png)
 
 
-## **Update Unit 1 Portfolio Page using:**
+## **Update Unit 1 Portfolio Page using:
 
 * Materialize CSS
 * Font Awesome
