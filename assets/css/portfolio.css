@@ -75,6 +75,9 @@
     color: white;
 }
 
+
+/* Responsive layout */
+
 @media screen and (min-width: 601px) {
     div.example {
         font-size: 80px;
