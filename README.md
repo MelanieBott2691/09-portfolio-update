@@ -7,7 +7,7 @@
 ![Portfolio](/assets/images/screenshot.png)
 
 
-## **Update Unit 1 Portfolio Page using:
+## Update Unit 1 Portfolio Page using:
 
 * Materialize CSS
 * Font Awesome
@@ -34,16 +34,16 @@
 - Color palette is consistent throughout all webpages
 - Images are meaningful and represent each project
 
-Portfolio Main Section -About Me
+### Portfolio Main Section -About Me
 ![Portfolio](/assets/images/portfoliowebpage.png)
 
-Portfolio Page
+### Portfolio Page
 ![Portfolio Page](/assets/images/portfoliopage.png)
 
-Contact Page
+### Contact Page
 ![Portfolio Page](/assets/images/contactpage.png)
 
-Resume Page
+### Resume Page
 ![Portfolio Page](/assets/images/resumepage.png)
 
 
