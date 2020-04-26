@@ -20,10 +20,6 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*
-    fixed = parallax
-    scroll = normal
-    */
 }
 
 .pimg1 {
@@ -50,13 +46,6 @@ html {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
-    /* color: transparent;
-    background: #666666;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
-    */
 }
 
 .section {
@@ -188,8 +177,6 @@ textarea.contact-form-text {
 .contact-form-btn {
     float: right;
     border: 40px;
-    /* background-color: #34495e; */
-    /* background-color: rgb(116, 137, 158); */
     background-color: rgb(168, 122, 164);
     color: #fff;
     border-radius: 4px;
@@ -201,58 +188,6 @@ textarea.contact-form-text {
 
 .contact-form-btn:hover {
     background-color: #256996;
-}
-
-
-/* Portfolio CSS */
-
-#background {
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-#work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-}
-
-.work:nth-child(even) {
-    margin-right: 40px;
-}
-
-.work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-}
-
-.work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-}
-
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
 }
 
 
