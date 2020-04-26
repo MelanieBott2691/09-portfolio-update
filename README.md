@@ -3,7 +3,7 @@ Unit 9: Portfolio Update
 
  https://melaniebott2691.github.io/09-portfolio-update/
 
-![Portfolio](assets/images/portfoliowebpage.png)
+![Portfolio](/assets/images/portfoliowebpage.png)
 
 
 Update Unit 1 Portfolio Page using:
@@ -22,5 +22,5 @@ Images
 
 
 Portfolio Page
-![Portfolio Page](assets/images/portfoliopage.png)
+![Portfolio Page](/assets/images/portfoliopage.png)
 
