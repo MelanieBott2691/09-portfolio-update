@@ -11,17 +11,27 @@ html {
     color: #666;
 }
 
-.parallax {
+
+/* .parallax {
     /* The image used */
-    background-image: url('assets/images/image1.jpg');
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
+/* background-image: url('assets/images/image1.jpg'); */
+
+
+/* Full height */
+
+
+/* height: 100%; */
+
+
+/* Create the parallax scrolling effect */
+
+
+/* background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
 
 .pimg1,
 .pimg2,
@@ -65,7 +75,7 @@ html {
     padding: 50px 80px;
 }
 
-.section-ligh {
+.section-light {
     background-color: lightgray;
     color: #666;
 }
