@@ -126,6 +126,30 @@ h2 {
 }
 
 
+/* home and contact buttons */
+
+#page-icons {
+    align-items: center;
+    height: 20% !important;
+    margin-bottom: 60px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: 10px 0 15px;
+    overflow: auto;
+    padding: 10px;
+}
+
+
 /* CONTACT FORM CSS */
 
 h1 {
