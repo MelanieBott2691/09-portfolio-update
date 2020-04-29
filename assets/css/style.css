@@ -46,7 +46,8 @@ background-size: cover; */
 
 .pimg1 {
     /* background: url("assets/images/image1.jpeg"); */
-    background-image: url("assets/images/image1.jpg");
+    /* background-image: url("assets/images/image1.jpg"); */
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image1.jpg");
     min-height: 100%;
 }
 
@@ -54,12 +55,14 @@ background-size: cover; */
     /* background: url("assets/images/image2.jpg"); */
     /* Photo by Felix Mittermeier from Pexels */
     background-image: url("assets/images/image2.jpg");
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image2.jpg");
     min-height: 400px;
 }
 
 .pimg3 {
     /* background: url("assets/images/image3.jpg"); */
-    background-image: url("assets/images/background1.jpeg");
+    /* background-image: url("assets/images/background1.jpeg"); */
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/background1.jpeg");
     min-height: 400px;
 }
 
@@ -73,11 +76,6 @@ background-size: cover; */
 .section {
     text-align: center;
     padding: 50px 80px;
-}
-
-.section-light {
-    background-color: lightgray;
-    color: #666;
 }
 
 .section-dark {
