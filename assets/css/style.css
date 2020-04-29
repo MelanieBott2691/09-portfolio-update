@@ -45,25 +45,18 @@ background-size: cover; */
 }
 
 .pimg1 {
-    /* background: url("assets/images/image1.jpeg"); */
-    /* background-image: url("assets/images/image1.jpg"); */
-    /* background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image1.jpg"); */
-    background-image: url("https://github.com/MelanieBott2691/09-portfolio-update/blob/46a2e39383dc3f0411116490ac4306e8c6fa3378/assets/images/image1.jpg");
+    background-image: url("../images/image1.jpg");
     min-height: 100%;
 }
 
 .pimg2 {
-    /* background: url("assets/images/image2.jpg"); */
     /* Photo by Felix Mittermeier from Pexels */
-    background-image: url("assets/images/image2.jpg");
-    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/image2.jpg");
+    background-image: url("../images/image2.jpg");
     min-height: 400px;
 }
 
 .pimg3 {
-    /* background: url("assets/images/image3.jpg"); */
-    /* background-image: url("assets/images/background1.jpeg"); */
-    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/HOMEWORK/09-portfolio-update/assets/images/background1.jpeg");
+    background-image: url("../images/background1.jpeg");
     min-height: 400px;
 }
 
