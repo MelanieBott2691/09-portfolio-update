@@ -223,7 +223,7 @@ textarea.contact-form-text {
 }
 
 .footer-copyright {
-    background-color: #302b2b !important;
+    /* background-color: #302b2b !important; */
     color: white;
     font-size: 12px;
     height: 40px !important;
